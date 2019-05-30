@@ -20,7 +20,10 @@
                     "name": "NODE_ENV",
                     "value": "production"
                 }
-            ]
+            ],
+            "repositoryCredentials": {
+                "credentialsParameter": "arn:aws:secretsmanager:us-east-1:026963732321:secret:ecr-senha-7KmHEV"
+            }
         }
     ],
     "volumes": [],
