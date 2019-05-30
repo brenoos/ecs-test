@@ -21,6 +21,7 @@
                     "value": "production"
                 }
             ]
+        }
     ],
     "volumes": [],
     "memory": "128",
