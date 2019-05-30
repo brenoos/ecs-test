@@ -6,13 +6,12 @@
         {
             "name": "ecs-test",
             "image": "026963732321.dkr.ecr.us-east-1.amazonaws.com/ecs-test",
-            "memoryReservation": "128",
-            "resourceRequirements": null,
+            "memoryReservation": 128,
             "essential": true,
             "portMappings": [
                 {
-                    "hostPort": "80",
-                    "containerPort": "3000",
+                    "hostPort": 80,
+                    "containerPort": 3000,
                     "protocol": "tcp"
                 }
             ],
@@ -22,24 +21,12 @@
                     "value": "production"
                 }
             ],
-            "secrets": null,
-            "mountPoints": null,
-            "volumesFrom": null,
-            "hostname": null,
-            "user": null,
-            "workingDirectory": null,
-            "extraHosts": null,
-            "logConfiguration": null,
-            "ulimits": null,
-            "dockerLabels": null,
-            "dependsOn": null,
             "repositoryCredentials": {
                 "credentialsParameter": ""
             }
         }
     ],
     "volumes": [],
-    "networkMode": null,
     "memory": "128",
     "cpu": "128",
     "placementConstraints": [],
