@@ -20,11 +20,7 @@
                     "name": "NODE_ENV",
                     "value": "production"
                 }
-            ],
-            "repositoryCredentials": {
-                "credentialsParameter": ""
-            }
-        }
+            ]
     ],
     "volumes": [],
     "memory": "128",
