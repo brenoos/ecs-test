@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "ecs-test",
-            "image": "026963732321.dkr.ecr.us-east-1.amazonaws.com/ecs-test:latest"",
+            "image": "026963732321.dkr.ecr.us-east-1.amazonaws.com/ecs-test:latest",
             "memoryReservation": 128,
             "essential": true,
             "portMappings": [
